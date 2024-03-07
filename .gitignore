@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+
+# Ignore Django's migration files
+**/migrations/
+
+# Secret key file (for development purposes)
+*.key
+
+# Ignore IDE and text editor files
+.vscode/
+.idea/
+*.sublime-*
+*.swp
+
+# Ignore environment-specific settings
+.env
+
+# Ignore database files
+db.sqlite3
+
+# Ignore compiled JavaScript files
+*.js.map
+
+# Ignore log files
+*.log
+
+# Ignore compiled Python files
+*.pyc
+
+# Ignore backup files
+*~
+
+# Ignore project-specific settings
+*.iml
