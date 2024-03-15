@@ -35,6 +35,10 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'cardio.apps.CardioConfig',
+    'climbs.apps.ClimbsConfig',
+    'weights.apps.WeightsConfig',
+    'training.apps.TrainingConfig',
     'recovery.apps.RecoveryConfig',
     'core.apps.CoreConfig',
     'django.contrib.admin',
