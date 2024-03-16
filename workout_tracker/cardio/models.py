@@ -11,3 +11,6 @@ class Cardio(models.Model):
             ('cycle', 'Cycle'),
       ]
       exercise_type = models.CharField(max_length=10, choices=EXERCISE_CHOICES)
+
+      def __str__(self):
+            return f"{self.exercise_type} - {self.duration}"
